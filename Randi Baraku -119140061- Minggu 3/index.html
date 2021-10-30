@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style></style>
+    <meta charset="uft-8">
+
+    <!--Judul halaman-->
+    <title>
+        Praktikum 3
+    </title>
+
+    <!--link untuk font yang saya gunakan-->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+     <!--link untuk css file-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+
+</head>
+<body>
+
+ <!--tombol ganti mode-->
+    <label  id="dark-change" ></label>
+
+<!--memanggil file js-->
+    <script type="text/javascript" src="javascript.js"></script>
+
+<!--header-->
+    <header  id="Hed">
+    Factorial Tool
+    </header> 
+
+<!--form utama-->
+    <form onsubmit="return false">
+        <div id="kotakf">
+            <h3>masukan nilai</h3>
+            <input type="number" placeholder="  " class="input" id="masukan" required>
+            <button onclick="faktorkan() " id="submit">Faktor</button>
+            <p id="jawab"> Klik faktor untuk mendapat hasil</p>
+        </div>            
+    </form>
+    
+<!--footer-->
+    <footer id="fut">
+        <p>Randi Baraku - 119140061</p>
+    </footer>
+</body>
+</html>

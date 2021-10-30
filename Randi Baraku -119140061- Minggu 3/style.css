@@ -1,0 +1,176 @@
+/* setting body*/
+		body{
+            font-family: ubuntu;
+			color: #fff;
+            background-image: url(asetimg/wallhaven-xlmlxv_1366x768\(1\).png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            color: rgba(26, 31, 41, 0.39);
+        }
+
+/* setting kolom input*/
+       .input{
+           text-align: center;
+            border: 0px;
+            margin-left: 6px;
+            padding: 10px 50px;
+            background-color:rgba(255, 255, 255, 0.247);
+            border: 2px rgba(255, 255, 255, 0.616) solid;
+            border-radius: 20px;
+        }
+/* setting unutk body darkmode*/
+        body.night{
+            transition: 0.4s;
+            color: #fff;
+            background: #000;
+            background-color: rgba(80, 116, 170, 0.589);
+        }
+
+/* styling untuk label ganti mode  */
+            label{
+                right: 3ch;
+                position: absolute;
+                width: 45px;
+                height: 22px;
+                top: 20px;
+                border: 2px solid;
+                border-radius: 20px;
+            }
+
+/* styling untuk label ganti mode  */   
+            label:before{
+                margin-right: 90%;
+                position: absolute;
+                content: '';
+                width:20px;
+                height: 20px;
+                left: 1px;
+                top: 1px;
+                border-radius: 50%;
+                background: rgb(255, 182, 164);
+                cursor: pointer;
+                transition: 0.4s;
+            }
+ 
+/* styling untuk label ganti mode pada night mode  */
+            label.active:before{
+                left: 24px;
+                background: rgb(34, 67, 129);
+            }
+
+ /* setting unutk body darkmode*/           
+            body.night{
+                transition: 0.4s;
+                color: rgb(55, 150, 238);
+                background-image: linear-gradient(rgba(16, 110, 173, 0.26),
+             rgba(8, 1, 1, 0.541) ), url(asetimg/wallhaven-wqd7pq_1366x768.png);
+            }
+
+
+/* stylekontainer kkotak ditengah (form) */
+    
+        #kotakf{
+            margin: 10% auto;
+            height: 400px;
+            width: 300px;
+            border: 2px rgb(255, 255, 255) solid;
+            background-color: rgba(206, 194, 194, 0.418);
+            border-radius: 6% ;
+
+        }
+
+/* stylekontainer kkotak ditengah pada darkmode (form) */
+        #kotakf.active{
+            margin: 10% auto;
+            height: 400px;
+            width: 300px;
+            border: 2px rgb(8, 126, 180) solid;
+            background-color: rgba(17, 27, 36, 0.815);
+            border-radius: 6% ;            
+        }
+
+/* style  kolom jawaban */
+        #jawab{
+            margin: 10% auto;
+            text-align: center;
+            width: 230px;
+            height: 40px;
+            background-color: rgba(240, 240, 240, 0.151);
+            padding: 20px;
+            padding-bottom: 40px;
+            border: 2px rgba(236, 236, 236, 0.582) solid;
+            border-radius: 25px;
+        }
+
+        
+/* style untuk header */       
+        header{
+            color: rgba(75, 47, 24, 0.452);
+            padding : 20px;
+            text-align: center;
+            font-weight: 900;
+            grid-area: header;
+            text-height: 100%;
+            background-color: rgba(255, 255, 255, 0.582) !important;
+            border-radius: 12px;
+            border: 2px rgba(23, 25, 34, 0.281) solid;
+        }
+
+/* style untuk header darkmode*/       
+        header.active{
+            background-color: rgba(16, 18, 20, 0.829) !important;
+            color: rgb(8, 126, 180) !important;
+            border-color: rgba(1, 183, 255, 0.582);
+        }
+
+ 
+
+
+/* style footer */        
+        footer{
+            margin-bottom: 0%;
+            padding-bottom: 20px;
+            width: 100%;
+            position: absolute;
+            border-top: 2px rgba(0, 0, 0, 0.411) solid;
+            color: rgba(17, 10, 10, 0.452);
+            background: rgb(255, 255, 255) !important;
+            font-style: italic;       
+            font-size: 0.8rem;
+            text-align: center;
+        }
+/* style footer dark mode*/        
+        footer.night{
+            border-top: 2px rgba(14, 47, 95, 0.589) solid;
+            background: rgb(6, 9, 20) !important;
+            color: rgba(80, 116, 170, 0.589);
+        }
+
+     
+/* style tombol submit (faktor) */        
+        #submit{
+            color: rgba(39, 39, 39, 0.582);
+            font-weight: 600;
+            text-align: center;
+            margin-top: 20px;
+            margin-left: 7px;
+            border-radius: 25px;
+            padding: 6px 120px;
+            border-color: rgba(255, 255, 255, 0.582);
+            background-color: rgba(255, 255, 255, 0.212);
+        }
+/* style tombol submit (faktor) dark mode*/        
+        #submit.night{
+            color: rgb(87, 179, 255);
+        }
+
+/* style text h3 */        
+        h3{
+            text-align: center;
+            padding-bottom: 10px;
+        }
+
+
+
+     
