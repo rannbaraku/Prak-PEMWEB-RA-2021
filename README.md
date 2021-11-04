@@ -1,4 +1,2 @@
 # Prak-PEMWEB-RA-2021
-
-Masukkan nama anda disini dengan format :
-Nama - NIM
+Randi Baraku - 119140061
