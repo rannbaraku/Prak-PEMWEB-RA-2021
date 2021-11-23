@@ -1,0 +1,102 @@
+/*style untuk body--*/
+body {
+    font-family: ubuntu;
+    color: #fff;
+    background-image: url(asetimg/wallhaven-xlmlxv_1366x768\(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: rgba(16, 18, 22, 0.493);
+}
+/*style untuk Judul--*/
+h1 {
+    text-align: center;
+    color: rgb(168, 129, 129);
+}
+
+
+
+/*style untuk inputan--*/
+
+.isi{
+    padding-top: 20px;
+    background-color: rgba(0, 0, 0, 0.116);
+    width: 400px;
+    border-radius: 20px;
+    margin: 10% auto;
+    
+}
+
+/*style untuk tabel--*/
+table{
+    margin : 1% auto;
+}
+
+table tr td {
+    padding: 0 10 10 10;
+}
+
+table input {
+    background-color: rgb(245, 255, 250, 0.5);
+    height: 25px;
+}
+
+table button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+/*style untuk data yang ditampilkan--*/
+
+.Data tr {
+    padding: 5px;
+    height: 30px;
+    background-color: rgba(24, 24, 24, 0.418);
+    color: white;
+
+}
+
+.Data th {
+    background-color: rgb(255, 255, 255);
+    height: 30px;
+    padding: 5px;
+    color: rgba(65, 65, 65, 0.616);
+
+
+}
+
+/*style untuk tombol--*/
+button {
+    background: rgba(255, 255, 255, 0.952);
+    color: rgb(68, 68, 68);
+    width: 120px;
+    border-radius: 10px;
+}
+
+button:hover {
+    background: rgb(82, 82, 82);
+    color: black;
+}
+
+.btn-delete:hover {
+    background-color: rgba(36, 36, 36, 0.7);
+}
+
+.btn-edit:hover {
+    background-color: rgb(212, 153, 118);
+}
+
+/*style untuk footer--*/
+.footer{
+    margin-bottom: 0px;
+    width: 100%;
+    background-color: white;
+    height: 30px;
+    position: absolute;
+    border-bottom: 0px;
+    text-align: center;
+    padding: 10px;
+    font-size: 10px;
+}
+

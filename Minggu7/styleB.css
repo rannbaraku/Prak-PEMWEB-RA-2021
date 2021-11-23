@@ -1,0 +1,131 @@
+/*style untuk body--*/
+body {
+    font-family: ubuntu;
+    color: #fff;
+    background-image: url(asetimg/wallhaven-xlmlxv_1366x768\(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: rgba(16, 18, 22, 0.493);
+}
+/*style untuk Judul--*/
+.weeb{
+    margin-top: 1%;
+    background-color: white;
+    padding: 30px;
+    font-size: 2rem;
+    font-weight: 500;
+    color: rgb(209, 178, 164);
+}
+
+.hot{
+
+    padding: 30px;
+    padding-left: 50px;
+    width: 1005;
+    margin-top: 2%;
+    color: rgb(141, 136, 136);
+    font-size: 1rem;
+    border: 2px rgba(151, 106, 106, 0.486) solid;
+    background-color: rgba(206, 206, 206, 0.493);
+    border-radius: 20px;
+}
+.tombol{
+    margin-top: 30px;
+    float: right;
+    right: 20px;
+
+}
+.pencet{
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 25px;
+    padding: 10px 10px;
+    width: 200px;
+    color: white;
+    background-color: rgb(196, 170, 170);
+    margin: 5px;
+}
+.elite{
+    position: absolute;
+    margin-left: 3%;
+    padding: 20px;
+    background-color: white;
+    width: 50%;
+    
+}
+.hangat{
+    margin-top: 5%;
+    margin-left: 38%;
+  
+
+}
+
+.isi{
+    padding-top: 20px;
+    background-color: rgba(0, 0, 0, 0.116);
+    width: 400px;
+    border-radius: 20px;
+    margin: 10% auto;
+    
+}
+
+/*style untuk tabel--*/
+table{
+    margin : 3% auto;
+}
+
+table tr td {
+    padding: 0 10 10 10;
+}
+
+table input {
+    background-color: rgb(245, 255, 250, 0.5);
+    height: 25px;
+}
+
+table button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+/*style untuk data yang ditampilkan--*/
+
+.Data tr {
+    padding: 5px;
+    height: 30px;
+    background-color: rgba(24, 24, 24, 0.418);
+    color: white;
+
+}
+
+.Data th {
+    background-color: rgb(255, 255, 255);
+    height: 30px;
+    padding: 5px;
+    color: rgba(65, 65, 65, 0.616);
+
+
+}
+
+/*style untuk tombol--*/
+button {
+    background: rgba(255, 255, 255, 0.952);
+    color: rgb(68, 68, 68);
+    width: 120px;
+    border-radius: 10px;
+}
+
+button:hover {
+    background: rgb(82, 82, 82);
+    color: black;
+}
+
+.btn-delete:hover {
+    background-color: rgba(36, 36, 36, 0.7);
+}
+
+.btn-edit:hover {
+    background-color: rgb(212, 153, 118);
+}
