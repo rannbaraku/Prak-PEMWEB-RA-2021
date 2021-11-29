@@ -1,0 +1,66 @@
+
+body {
+    font-family: ubuntu;
+    background-image: url(assets/wallhaven-g71763_1366x768.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: rgba(16, 18, 22, 0.493);
+    color: white !important;
+}
+
+
+.bucket {
+    width: 25vw;
+    background-color: #062c3bb4;
+    border-radius: 20px;
+     /* margin: 25vh auto; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 25px;
+    font-size: 12pt;
+     /* box-shadow: 10px 10px 5px grey; */
+}
+
+.bucket p {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.login-field {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    /* background: transparent; */
+    border: none;
+    text-shadow: 0 0 whitesmoke;
+    font-weight: 600;
+    opacity: 0.8;
+    /* color: white; */
+    border-radius: 7px;
+}
+
+.login-btn-submit {
+    background-color: #072a41;
+    color: white;
+    font-size: 12pt;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.login-btn-submit:hover {
+    background-color: #3496d6;
+    color: white;
+    font-size: 12pt;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
